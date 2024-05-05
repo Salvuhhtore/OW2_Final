@@ -5,7 +5,7 @@ import altair as alt
 # Cache Data
 @st.cache_data
 def load_data():
-    OW2_Data = pd.read_csv('data/OW2_Statistics.csv')
+    OW2_Data = pd.read_csv('OW2_Statistics.csv')
     return OW2_Data
 
 # Load the data
